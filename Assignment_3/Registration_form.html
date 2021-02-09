@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <style media="screen">
+      fieldset{
+        margin: auto;
+        width: 70%;
+        font-size: 20px;
+      }
+      body{
+        background-color:cyan;
+      }
+      .submit{
+        text-align:center;
+      }
+      table,tr,td{
+        font-family: "Lucida Console", "Courier New", monospace;
+      }
+
+    </style>
+  </head>
+  <body style="font-family:verdana">
+  <form>
+
+ <h1 align=center><b><i><u> Student Registeration Form</u></i></b></h1>
+ <fieldset>
+   <legend>Personal Info:</legend>
+
+<label> Firstname : </label>
+<input type="text" name="firstname" placeholder= "Firstname" required />
+
+<br><br>
+
+<label> Lastname : </label>
+<input type="text" name="lastname" placeholder="Lastname"required />
+
+<br><br>
+
+<label for="birthday">Birthday :</label>
+  <input type="date" id="birthday">
+  <input type="submit">
+
+  <br><br>
+
+  <label>Gender :</label>
+  <input type="radio" value="Male" name="gender" > Male
+  <input type="radio" value="Female" name="gender"> Female
+
+  <br><br>
+
+  <label>Age: </label>
+  <input type="range" name="age" min="0" max="70">
+
+  <br><br>
+
+  <label>Phone :</label>
+  <input type="tel" placeholder="xxxxxxxxxx" required>
+
+  <br><br>
+
+  <label ><b>Email: </b></label>
+  <input type="email" placeholder="xyz@student.nitw.ac.in" name="email" required>
+
+  <br><br>
+
+  <label ><b>Password: </b></label>
+  <input type="password" placeholder="Enter Password" name="psw" required>
+
+  <br><br>
+
+  <label >Upload your ID Card :</label>
+  <input type="file" id="myfile"><br><br>
+
+<label>Category :</label>
+<select >
+<option value="BTech">BTech</option>
+<option value="MTech">MTech</option>
+<option value="PhD">PhD</option>
+</select>
+
+<br><br>
+
+<label>Branch :</label>
+<select size="3">
+  <option value="CSE">CSE</option>
+  <option value="ECE">ECE</option>
+  <option value="EEE">EEE</option>
+  <option value="Mech">Mech</option>
+  <option value="MME">MME</option>
+  <option value="Chem">Chem</option>
+  <option value="BioTech">BioTech</option>
+  <option value="Civil">Civil</option>
+</select>
+</fieldset>
+
+<br><br>
+
+<table align="center" border= 3px width=73% >
+  <tr>
+  <th align="center">COURSE ID</th>
+  <th align="center">COURSE NAME</th>
+  <th align="center">CREDIT</th>
+  <th align="center">TYPE</th>
+  <th align="center">SELECT</th>
+  </tr>
+  <tr>
+  <td align="center">CS390</td>
+  <td align="center">OBJECT ORIENTED PROGRAMMING</td>
+  <td align="center">3</td>
+  <td align="center">THEORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC351</td>
+  <td align="center">DATA NETWORKS</td>
+  <td align="center">3</td>
+  <td align="center">THEORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC352</td>
+  <td align="center">	DIGITAL SIGNAL PROCESSING</td>
+  <td align="center">3</td>
+  <td align="center">THEORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC353</td>
+  <td align="center">EMBEDDED AND REAL TIME OPERATING SYSTEMS</td>
+  <td align="center">3</td>
+  <td align="center">THEORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC354</td>
+  <td align="center">INFORMATION THEORY AND CODING</td>
+  <td align="center">3</td>
+  <td align="center">THEORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC3564</td>
+  <td align="center">WEB TECHNOLOGIES</td>
+  <td align="center">3</td>
+  <td align="center">THEORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC357</td>
+  <td align="center">COMMUNICATION SYSTEMS LAB</td>
+  <td align="center">2</td>
+  <td align="center">LABORATORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  <tr>
+  <td align="center">EC358</td>
+  <td align="center">DATA NETWORKS LAB</td>
+  <td align="center">2</td>
+  <td align="center">LABORATORY</td>
+  <td align="center">
+  <select id="" name="">
+  <option value="">SELECT</option>
+  <option value="">REGISTER</option>
+  <option value="">DROP</option>
+  </select></td>
+  </tr>
+  </table>
+  <br><br>
+
+<div class="submit">
+<input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpYRxTuokIOuSF-fL2bsj6jRN_OpfFUxDzQ&usqp=CAU"
+alt="Submit" width=250px, height=70px align="center">
+</div>
+
+
+</form>
+</body>
+</html>
